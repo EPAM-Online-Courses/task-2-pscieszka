@@ -25,11 +25,11 @@ public class GuessNumberGame {
 
         catch (NumberFormatException e) {
             System.out.println("'" + argument + "' to " + UsefulConstants.WRONG_ARGUMENT +  " - to nie liczba");
-            System.exit(1);
+            System.exit(0);
 
         } catch (IllegalArgumentException e) {
             System.out.println(number + " to " + UsefulConstants.WRONG_ARGUMENT + " - jest spoza zakresu <1," + UsefulConstants.MAX_UPPER_BOUND + ">");
-            System.exit(1);
+            System.exit(0);
         }
     }
 
