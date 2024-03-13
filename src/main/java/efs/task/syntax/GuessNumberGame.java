@@ -47,7 +47,7 @@ public class GuessNumberGame {
 
             if(!sc.hasNextInt()){
                 String userInput = sc.next();
-                System.out.print("Hmm, "+userInput+" to "+UsefulConstants.NOT_A_NUMBER);
+                System.out.print("Hmm, "+userInput+" to "+UsefulConstants.NOT_A_NUMBER + "\n");
                 continue;
             }
 
